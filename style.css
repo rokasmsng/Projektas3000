@@ -1,0 +1,772 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+@media (max-width: 575px) {
+    img#mediamobile {
+        display: none;
+    }
+
+    .backgroundimage {
+        background-image: url("img/Layer 7.png");
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .klassfortext {
+        margin-top: 100px;
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 6px) and (max-width: 320px) {
+    .backgroundimage {
+        background-image: url("img/Layer 7.png");
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .klassfortext {
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .textcenter {
+        margin: auto;
+    }
+    .threecolumnklass {
+        height: auto;
+    }
+    .threeitemklass2 {
+        height: 700px;
+    }
+    .alekaruseleklass {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .manyobjectklass {
+        height: auto;
+    }
+    .buttonklass {
+        height: 200px;
+        background-color: darkslategrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .emailklass {
+        height: 350px;
+    }
+    .footerklass {
+        height: 350px;
+    }
+    #emailbox{
+        width: 141px;
+        height: 70px;
+        margin-top: 15px;
+    }
+    #buttonbox {
+        width: 90px;
+        height: 70px;
+    }
+    .bikefoto1 {
+        background-image: url("img/Layer 10.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .bikefoto2 {
+        background-image: url("img/Layer 12.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .bikefoto3 {
+        background-image: url("img/Layer 15.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 350px;
+    }
+    .bikefoto4 {
+        background-image: url("img/Layer 14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 350px;
+    }
+    .bikefoto5 {
+        background-image: url("img/Layer 19.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .bikefoto6 {
+        background-image: url("img/Layer 21.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .bikefoto7 {
+        background-image: url("img/Layer 20.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+    }
+    .bikefoto8 {
+        background-image: url("img/Layer 22.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 330px;
+    }
+    .bikefoto9 {
+        background-image: url("img/Layer 25.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 330px;
+    }
+    .bikefoto10 {
+        background-image: url("img/Layer xx.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 180px;
+    }
+    .bikefoto11 {
+        background-image: url("img/Layer 24.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 180px;
+    }
+    .bikefoto12 {
+        background-image: url("img/Layer 26.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 180px;
+    }
+    .layer11 {
+        background-image: url("img/Layer 11.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer13 {
+        background-image: url("img/Layer 13.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 150px;
+    }
+    .layer16 {
+        background-image: url("img/Layer 16.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+    .backgroundimage {
+        background-image: url("img/Layer 7.png");
+        height: 270px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .klassfortext {
+        margin-top: 50px;
+        height: 400px;
+        width: 100%;
+    }
+    .textcenter {
+        margin: auto;
+    }
+    .threecolumnklass {
+        height: auto;
+    }
+    .alekaruseleklass {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .manyobjectklass {
+        height: auto;
+    }
+    .buttonklass {
+        height: 200px;
+        background-color: darkslategrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .emailklass {
+        height: 350px;
+    }
+    .footerklass {
+        height: 350px;
+    }
+    #emailbox{
+        width: 180px;
+        height: 70px;
+        margin-top: 15px;
+    }
+    #buttonbox {
+        width: 90px;
+        height: 70px;
+    }
+    .bikefoto1 {
+        background-image: url("img/Layer 10.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 310px;
+    }
+    .bikefoto2 {
+        background-image: url("img/Layer 12.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+    }
+    .bikefoto3 {
+        background-image: url("img/Layer 15.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 450px;
+    }
+    .bikefoto4 {
+        background-image: url("img/Layer 14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 450px;
+    }
+    .bikefoto5 {
+        background-image: url("img/Layer 19.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .bikefoto6 {
+        background-image: url("img/Layer 21.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .bikefoto7 {
+        background-image: url("img/Layer 20.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+    }
+    .bikefoto8 {
+        background-image: url("img/Layer 22.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+    }
+    .bikefoto9 {
+        background-image: url("img/Layer 25.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+    }
+    .bikefoto10 {
+        background-image: url("img/Layer xx.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+    }
+    .bikefoto11 {
+        background-image: url("img/Layer 24.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+    }
+    .bikefoto12 {
+        background-image: url("img/Layer 26.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+    }
+    .layer11 {
+        background-image: url("img/Layer 11.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer13 {
+        background-image: url("img/Layer 13.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer16 {
+        background-image: url("img/Layer 16.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 840px) {
+    .backgroundimage {
+        background-image: url("img/Layer 7.png");
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .klassfortext {
+        margin-top: 50px;
+        height: 300px;
+        width: 840px;
+    }
+    .bandymas {
+        height: 350px;
+    }
+    .textcenter {
+        margin: auto;
+    }
+    .hideimage {
+        display: none;
+    }
+    .threeitemklass {
+        height: 500px;
+        margin-bottom: -100px;
+    }
+    .threeitemklass2 {
+        height: 500px;
+        margin-bottom: -40px;
+    }
+    .threecolumnklass {
+        height: auto;
+    }
+    .alekaruseleklass {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .manyobjectklass {
+        height: auto;
+    }
+    .buttonklass {
+        height: 200px;
+        background-color: darkslategrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .emailklass {
+        height: 350px;
+    }
+    .footerklass {
+        height: 350px;
+    }
+    #emailbox{
+        width: 300px;
+        height: 70px;
+    }
+    #buttonbox {
+        width: 90px;
+        height: 70px;
+    }
+    .bikefoto1 {
+        background-image: url("img/Layer 10.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+    }
+    .bikefoto2 {
+        background-image: url("img/Layer 12.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+    }
+    .bikefoto3 {
+        background-image: url("img/Layer 15.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 850px;
+    }
+    .bikefoto4 {
+        background-image: url("img/Layer 14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 850px;
+    }
+    .bikefoto5 {
+        background-image: url("img/Layer 19.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 190px;
+    }
+    .bikefoto6 {
+        background-image: url("img/Layer 21.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 185px;
+    }
+    .bikefoto7 {
+        background-image: url("img/Layer 20.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 185px;
+    }
+    .bikefoto8 {
+        background-image: url("img/Layer 22.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+    }
+    .bikefoto9 {
+        background-image: url("img/Layer 25.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+    }
+    .bikefoto10 {
+        background-image: url("img/Layer xx.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 190px;
+    }
+    .bikefoto11 {
+        background-image: url("img/Layer 24.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 190px;
+    }
+    .bikefoto12 {
+        background-image: url("img/Layer 26.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 190px;
+    }
+    .layer11 {
+        background-image: url("img/Layer 11.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer13 {
+        background-image: url("img/Layer 13.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer16 {
+        background-image: url("img/Layer 16.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+}
+
+@media (min-width: 841px) and (max-width: 1243px) {
+    .backgroundimage {
+        background-image: url("img/Layer 7.png");
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .klassfortext {
+        margin-top: 20px;
+        height: 300px;
+        width: 990px;
+    }
+    .textcenter {
+        margin: auto;
+    }
+    .bandymas {
+        height: 400px;
+    }
+    .hideimage {
+        display: none;
+    }
+    .threeitemklass {
+        height: 600px;
+    }
+    .threecolumnklass {
+        height: 600px;
+    }
+    .alekaruseleklass {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .manyobjectklass {
+        height: 534px;
+    }
+    .buttonklass {
+        height: 200px;
+        background-color: darkslategrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .emailklass {
+        height: 350px;
+    }
+    .footerklass {
+        height: 350px;
+    }
+    #emailbox{
+        width: 300px;
+        height: 70px;
+    }
+    #buttonbox {
+        width: 90px;
+        height: 70px;
+    }
+    .bikefoto1 {
+        background-image: url("img/Layer 10.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+    .bikefoto2 {
+        background-image: url("img/Layer 12.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+    .bikefoto3 {
+        background-image: url("img/Layer 15.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 900px;
+    }
+    .bikefoto4 {
+        background-image: url("img/Layer 14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 900px;
+    }
+    .bikefoto5 {
+        background-image: url("img/Layer 19.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto6 {
+        background-image: url("img/Layer 21.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto7 {
+        background-image: url("img/Layer 20.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto8 {
+        background-image: url("img/Layer 22.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 535px;
+    }
+    .bikefoto9 {
+        background-image: url("img/Layer 25.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 535px;
+    }
+    .bikefoto10 {
+        background-image: url("img/Layer xx.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto11 {
+        background-image: url("img/Layer 24.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto12 {
+        background-image: url("img/Layer 26.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .layer11 {
+        background-image: url("img/Layer 11.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer13 {
+        background-image: url("img/Layer 13.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer16 {
+        background-image: url("img/Layer 16.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 1242px) and (max-width: 9999px){
+    body {
+        width: 1630px;
+        margin: auto;
+    }
+    .backgroundimage {
+        background-image: url("img/Layer 7.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 990px;
+    }
+
+    .klassfortext {
+        margin-top: 30px;
+        height: 300px;
+        width: 990px;
+    }
+    .textcenter {
+        margin: auto;
+    }
+
+    .threeitemklass {
+        height: 600px;
+        width: auto;
+    }
+    .threecolumnklass {
+        height: 600px;
+    }
+    .alekaruseleklass {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .manyobjectklass {
+        height: 534px;
+    }
+    .buttonklass {
+        height: 200px;
+        background-color: darkslategrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .emailklass {
+        height: 350px;
+    }
+    .footerklass {
+        height: 350px;
+    }
+    #emailbox{
+        width: 300px;
+        height: 70px;
+    }
+    #buttonbox {
+        width: 90px;
+        height: 70px;
+    }
+    .bikefoto1 {
+        background-image: url("img/Layer 10.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+    .bikefoto2 {
+        background-image: url("img/Layer 12.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+    .bikefoto3 {
+        background-image: url("img/Layer 15.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+    .bikefoto4 {
+        background-image: url("img/Layer 14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+    .bikefoto5 {
+        background-image: url("img/Layer 19.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto6 {
+        background-image: url("img/Layer 21.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto7 {
+        background-image: url("img/Layer 20.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto8 {
+        background-image: url("img/Layer 22.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 535px;
+    }
+    .bikefoto9 {
+        background-image: url("img/Layer 25.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 535px;
+    }
+    .bikefoto10 {
+        background-image: url("img/Layer xx.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto11 {
+        background-image: url("img/Layer 24.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .bikefoto12 {
+        background-image: url("img/Layer 26.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 267px;
+    }
+    .layer11 {
+        background-image: url("img/Layer 11.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer13 {
+        background-image: url("img/Layer 13.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+    .layer16 {
+        background-image: url("img/Layer 16.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+    }
+
+
+}
